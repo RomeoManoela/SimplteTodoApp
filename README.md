@@ -1,6 +1,7 @@
 <h1>📝 Todo App</h1>
 
-<p><strong>Todo App</strong> is a <strong>Django</strong>-based application that helps users organize their tasks efficiently. With features like task creation, categorization, and completion, this app simplifies task management for both personal and professional projects.</p>
+<p><strong>Todo App</strong> is a <strong>Django</strong>-based application designed specifically for my students who are just starting to learn Django. This project aims to provide a simple and practical example to help them understand the basics of Django development.</p>
+
 
 <h2>🚀 Getting Started</h2>
 <p>Follow these steps to set up your project locally:</p>
