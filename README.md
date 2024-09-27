@@ -6,7 +6,7 @@
 <p>Follow these steps to set up your project locally:</p>
 <ol>
     <li><strong>Clone the repository</strong>:
-        <pre><code>https://github.com/RomeoManoela/SimplteTodoApp.git</code></pre>
+        <pre><code>git clone https://github.com/RomeoManoela/SimplteTodoApp.git</code></pre>
     </li>
     <li><strong>Create a virtual environment</strong>:
         <pre><code>python -m venv venv</code></pre>
@@ -23,6 +23,9 @@
     </li>
     <li><strong>Install dependencies</strong>:
         <pre><code>pip install -r requirements.txt</code></pre>
+    </li>
+    <li><strong>Create a media/images directory in the root of your application</strong>:
+        <pre><code>mkdir -p media/images</code></pre>
     </li>
     <li><strong>Run migrations</strong>:
         <pre><code>python manage.py migrate</code></pre>
