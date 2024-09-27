@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Note App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="min-h-screen flex flex-col justify-center items-center">
+        <h1 class="text-5xl font-bold mb-6 text-center">Welcome to My Note App</h1>
+        <p class="text-lg text-gray-700 mb-8 text-center">
+            Easily organize your ideas, tasks, and reminders in one place.
+        </p>
+
+        <div class="flex space-x-4">
+            <a href="{% url 'note-list' %}" class="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">
+                <i class="fas fa-sticky-note mr-2"></i> View Notes
+            </a>
+            <a href="{% url 'admin:index' %}" class="bg-gray-700 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-900 transition duration-300">
+                <i class="fas fa-user-cog mr-2"></i> Admin Dashboard
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

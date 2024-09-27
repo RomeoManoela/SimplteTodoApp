@@ -1,0 +1,22 @@
+{% extends 'my_note/_base.html' %}
+{% load tailwind_filters %}
+
+{% block title %}Add Note{% endblock %}
+
+{% block content %}
+<div class="max-w-md mx-auto bg-white p-4 rounded-lg shadow-md mt-6">
+    <h2 class="text-xl font-semibold mb-4 text-center">Add a New Note</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form|crispy }}
+
+        <!-- Submit Button -->
+        <div class="flex justify-end mt-4">
+            <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded-lg shadow hover:bg-blue-600 transition duration-300 text-sm">
+                <i class="fas fa-save mr-1"></i> Save
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
