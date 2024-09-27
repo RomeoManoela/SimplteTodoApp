@@ -38,3 +38,9 @@
 
 <h2>🤝 Contributing</h2>
 <p>Contributions are welcome! Feel free to submit a pull request or open an issue to discuss improvements or new features.</p>
+<h2>Screenshots</h2>
+
+<p>Here is a screenshot of the Todo App:</p>
+
+<img src="scht.png" alt="Todo App Screenshot">
+
